@@ -11,7 +11,7 @@ name = "lgrep"
 path = "src/main.rs"
 
 [dependencies]
-lilyco = { }
+lilyco = "0.3.1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 

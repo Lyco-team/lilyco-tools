@@ -12,5 +12,5 @@ path = "src/main.rs"
 
 [dependencies]
 # default-features = false → headless（CLI + MCP），aarch64 伴飞计算机可编
-lilyco = {, default-features = false }
+lilyco = { version = "0.3.1", default-features = false }
 serde_json = "1"
